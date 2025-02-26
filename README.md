@@ -107,10 +107,6 @@ bookstore-web-app/
 - 🎨 Customize the interface theme as per preferences.
 - 📚 Browse and manage book collections effortlessly.
 
-### Admin Features 🛠️
-- ➕ Add, edit, and delete book entries.
-- 📊 View and manage user activities.
-
 ## Contributing 🤝
 
 Contributions are welcome! If you'd like to contribute:
