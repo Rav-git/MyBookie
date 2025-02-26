@@ -119,9 +119,6 @@ Contributions are welcome! If you'd like to contribute:
 - Commit your changes.
 - Submit a pull request.
 
-## License 📜
-This project is licensed under the [MIT License](LICENSE).
-
 ## Contact 📞
 For any inquiries or feedback, feel free to contact me:
 - **Email**: [97ravi2002@gmail.com](mailto:97ravi2002@gmail.com)
