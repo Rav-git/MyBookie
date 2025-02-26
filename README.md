@@ -74,13 +74,30 @@ The application will be running at `http://localhost:3000`.
 
 ```
 bookstore-web-app/
-├── client/          # Frontend code (React JS)
-├── server/          # Backend code (Node.js, Express.js)
-├── models/          # Database models
-├── routes/          # API routes
-├── controllers/     # Request handlers
-├── utils/           # Utility functions
-└── README.md        # Project documentation
+├── Backend/                # Backend code
+│   ├── controller/         # Request handlers
+│   ├── model/              # Database models
+│   ├── node_modules/       # Node.js modules
+│   ├── route/              # API routes
+│   ├── .env                # Environment variables
+│   ├── index.js            # Entry point for the backend server
+│   ├── package.json        # Backend dependencies
+│   └── package-lock.json   # Backend dependency lock file
+│
+├── Frontend/               # Frontend code
+│   ├── public/             # Static assets
+│   ├── src/                # React components and application logic
+│   ├── .eslintrc.cjs       # ESLint configuration
+│   ├── .gitignore          # Git ignore file
+│   ├── index.html          # Entry point for the frontend
+│   ├── list.json           # Sample data
+│   ├── package.json        # Frontend dependencies
+│   ├── package-lock.json   # Frontend dependency lock file
+│   ├── postcss.config.js   # PostCSS configuration
+│   ├── tailwind.config.js  # Tailwind CSS configuration
+│   └── vite.config.js      # Vite configuration
+│
+├── README.md               # Project documentation
 ```
 
 ## Features Breakdown 🔍
@@ -114,4 +131,3 @@ For any inquiries or feedback, feel free to contact me:
 ---
 
 Enjoy exploring the BookStore Web Application! 📚
-
