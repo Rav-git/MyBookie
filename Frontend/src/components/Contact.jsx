@@ -18,7 +18,7 @@ function Contact() {
   const onSubmit = async (data) => {
     try {
       setIsSubmitting(true);
-      const response = await axios.post('http://localhost:4001/contact/submit', data);
+      const response = await axios.post('https://mybookie-backend.onrender.com/contact/submit', data);
       
       if (response.data.success) {
         toast.success("Message sent successfully! We'll get back to you soon.");
