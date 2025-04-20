@@ -5,6 +5,7 @@ import cors from "cors";
 
 import bookRoute from "./route/book.route.js";
 import userRoute from "./route/user.route.js";
+import contactRoute from "./route/contactRoutes.js";
 
 const app = express();
 
@@ -26,10 +27,15 @@ try {
 } catch (error) {
     console.log("Error: ", error);
 }
+// add a route for the root path
+app.get("/", (req, res) => {
+    res.send("Welcome to Book Store API");
+});
 
 // defining routes
 app.use("/book", bookRoute);
 app.use("/user", userRoute);
+app.use("/contact", contactRoute);
 
 app.listen(PORT, () => {
     console.log(`Server is listening on port ${PORT}`);
